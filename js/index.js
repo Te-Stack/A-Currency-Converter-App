@@ -1,13 +1,13 @@
 const inserted = document.getElementById("myinput");
-inserted.addEventListener('input',function(event){
-    let converted = event.target.value
+inserted.addEventListener('input',function(e){
+    let converted = e.target.value
     let dollarValue = document.getElementById("dollarsid");
-    dollarValue.innerHTML = converted * 413
+    dollarValue.innerHTML = converted * 411.25
     let poundValue = document.getElementById("poundsid");
-    poundValue.innerHTML = converted * 582.48
+    poundValue.innerHTML = converted * 580.03
     let euroValue = document.getElementById("eurosid");
-    euroValue.innerHTML = converted *501.63
+    euroValue.innerHTML = converted *500.43
     let cedisValue = document.getElementById("cedisid");
-    cedisValue.innerHTML = converted *71.65
+    cedisValue.innerHTML = converted *71.32
 })
 
