@@ -8,6 +8,6 @@ inserted.addEventListener('input',function(e){
     let euroValue = document.getElementById("eurosid");
     euroValue.innerHTML = converted *502.48
     let cedisValue = document.getElementById("cedisid");
-    cedisValue.innerHTML = converted *71.32
+    cedisValue.innerHTML = converted *71.42
 })
 
