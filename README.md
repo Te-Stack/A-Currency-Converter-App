@@ -1,1 +1,1 @@
-# This is a Simple Currency App made with Html,css and Javascript
+## This is a Currency Conveter App that convert between different currencies.
