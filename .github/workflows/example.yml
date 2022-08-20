@@ -1,4 +1,4 @@
-name: Sample Matrix Parallel
+name: Matrix Strategy Sample
 on: push
 jobs:
   example_matrix:
