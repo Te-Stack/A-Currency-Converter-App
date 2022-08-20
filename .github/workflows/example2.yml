@@ -1,6 +1,5 @@
 
-
-name: Matrix Strategy Sample
+name: Matrix Strategy Max-Parallel Sample
 on: push
 jobs:
   example_matrix:
