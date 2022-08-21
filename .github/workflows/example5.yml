@@ -1,4 +1,5 @@
-name: Matrix Strategy using JSON Syntax
+
+name: Sample Run Include Syntax Json Format
 on: push
 jobs:
   job1:
@@ -6,6 +7,7 @@ jobs:
     outputs:
        matrix: ${{ steps.setmatrix.outputs.matrix }}
     steps:
+      - name: Set Dynamic Matrix
         id: setmatrix
         run: |
            matrixStringifiedObject="{\"include\":[{\"run\":\"run1\"},{\"run\":\"run2\"}]}"
@@ -19,4 +21,4 @@ jobs:
     - run: echo Run ${{ matrix.run }}
     - run: date
     - run: sleep 1
-    - run: build
+    - run: date
