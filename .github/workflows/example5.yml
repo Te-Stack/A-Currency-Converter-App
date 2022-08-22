@@ -1,4 +1,3 @@
-
 name: Sample Run Include Syntax Json Format
 on: push
 jobs:
